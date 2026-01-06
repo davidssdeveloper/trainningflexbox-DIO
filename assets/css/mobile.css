@@ -1,0 +1,257 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header, main, section, footer {
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 0 1.5rem;
+    max-width: 26.75rem;
+}
+
+main {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header Section Styles */
+header{
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    background-image: url('../images/images-mobile/Header\ Background.svg');
+    background-size: cover;
+}
+
+.header-content { 
+    max-width: 47.31rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 4.31rem 0 6.25rem 0;
+} 
+
+.header-content h1{
+    margin-bottom: 0;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.header-content p{
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.button-1 {
+    background-color: #FFFFFF;
+    color: #23272A;
+    font-weight: 400;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.875rem 1.25rem;
+    font-size: 1rem;
+}
+
+.button-2 {
+    background-color: #23272A;
+    color: #FFFFFF;
+    font-weight: 400;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 0.875rem 1.25rem;
+    font-size: 1rem;
+}
+
+div button:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
+
+/* Sections  Styles */
+
+main section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5rem;
+    margin-left: -1.5rem;
+}
+main section img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    border-radius: 0.5rem;
+}
+
+main section h2 {
+    font-family: 'Open-Sans';
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+main .section-4 h2 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+main section p {
+    font-family: 'Open-Sans';
+    font-size: 1rem;
+    font-style: ExtraBold;
+}
+
+main .section-2, main .section-4 {
+    background-color: #F6F6F6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #23272A;
+    height: 8.75rem;
+
+}
+
+
+
+
+/* Media Queries CSS - LandScape,Tablet View and Desktop */
+@media screen and (min-width: 29.5rem) {
+    header {
+        background-image: url('../images/HeaderBackground-LS-and-Desktop.svg');
+        background-position: center;
+    }
+    header .header-content h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (min-width: 29.5rem) {
+    header, main, section, footer {
+        max-width: 57.87rem;
+    }
+
+    main {
+        gap: 2.5rem;
+    }
+
+    main section {
+        flex-direction: row;
+    }
+
+    .header-content {
+        margin-top: -1rem;
+        text-align: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .buttons {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    main section div h2 {
+        font-size: 2rem;
+    }
+    
+
+    main .section-1, main .section-2, main .section-3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main .section-2, .centralizer, .flex-row-reverse {
+        display: flex;
+    }
+
+    main .section-4 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cs-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: .5rem;
+        max-width: 15rem;
+    }
+
+    .content-sect-4, .centralizer {
+        max-width: 48rem;
+    }
+
+    main section .flex-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .centralizer {
+        gap: 5rem;
+    }
+}
+
+@media screen and (min-width: 57.87rem) and (max-width: 80rem) {
+    header {
+        max-height: 28.68rem;
+    }
+    header, main, section, footer {
+        max-width: 80rem;
+    } 
+
+    .header-content, .centralizer, .content-sect-4 {
+        min-width: 60rem;
+        justify-content: space-around;
+        align-items: space-between;
+    }
+
+    main section .flex-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .centralizer {
+        gap: 7rem;
+    }
+}
+
+@media  screen and (min-width: 80rem) and (max-width: 120rem) {
+    header, main, section, footer {
+        max-width: 120rem;
+    }
+
+    .header-content, .centralizer, .content-sect-4 {
+        min-width: 60rem;
+        justify-content: space-around;
+        align-items: space-between;
+    }
+
+    main section .flex-row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    .centralizer {
+        gap: 7rem;
+    }
+    
+}
+
