@@ -37,18 +37,6 @@ Todo o projeto foi desenvolvido com **HTML e CSS puro**, sem a utilização de f
 
 ---
 
-## 📂 Estrutura do Projeto
-
-```plaintext
-trainningflexbox-DIO/
-│
-├── .github/          # Configurações do GitHub
-├── assets/           # Imagens e recursos do projeto
-├── index.html        # Estrutura principal da aplicação
-└── README.md         # Documentação do projeto
-
-
-
 ## 📐 Conceitos Aplicados
 CSS Flexbox
 
@@ -70,6 +58,8 @@ Responsividade
 
 O projeto foi desenvolvido com foco em design responsivo, utilizando media queries para adaptação do layout a diferentes resoluções de tela, proporcionando melhor experiência ao usuário.
 
+---
+
 ## 🚀 Resultado do Aprendizado
 
 Com a realização deste desafio, foi possível:
@@ -82,11 +72,30 @@ Melhorar a estruturação de páginas com CSS
 
 Aplicar conceitos fundamentais de Front-end na prática.
 
+---
+
 ## 📝 Considerações Finais
 
 Este projeto faz parte da trilha de aprendizado da Digital Innovation One (DIO) e tem como finalidade exclusivamente educacional, servindo como prática e reforço dos conceitos apresentados no curso.
+
+---
 
 ## 👨‍💻 Autor
 
 David
 Projeto desenvolvido como parte do curso de CSS da Digital Innovation One (DIO).
+
+## 📂 Estrutura do Projeto
+
+---
+
+```plaintext
+trainningflexbox-DIO/
+│
+├── .github/          # Configurações do GitHub
+├── assets/           # Imagens e recursos do projeto
+├── index.html        # Estrutura principal da aplicação
+└── README.md         # Documentação do projeto
+
+
+
